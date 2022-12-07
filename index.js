@@ -31,7 +31,10 @@ async function run(){
   });
 
 
-
+  app.post('products',async(req, res)=>{
+    const user = {}
+   
+  })
 
    }
 
@@ -49,7 +52,7 @@ app.get('/', async(req, res) => {
 })
 
 
-//listening prot 
+//listening prot and server running
 app.listen(port, () => {
   console.log(`server listening on port running ${port}`)
 })
